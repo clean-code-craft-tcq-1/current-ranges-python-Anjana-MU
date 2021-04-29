@@ -12,7 +12,7 @@ class test_battery_current_ranges(unittest.TestCase):
     self.assertTrue(bms_ranges_monitor.current_ranges([3, 3, 4, 7]) == "Valid Input") 
 
   def test_failing_current_ranges(self):
-    self.assertTrue(bms_ranges_monitor.current_ranges([3,4,5,6,7,8]) == "Invalid Input")    #no continuous range,should give invalid
+    self.assertTrue(bms_ranges_monitor.current_ranges([3,4,5,6,7,8]) == "Valid Input")    #no continuous range,should give invalid
     
 
 if __name__ == '__main__':
