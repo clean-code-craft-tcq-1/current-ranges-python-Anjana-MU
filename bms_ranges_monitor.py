@@ -8,4 +8,4 @@ def current_ranges(range_list):
   return 'Invalid Input'
     
 def validate_input(ranges):
-    return not(None in ranges)
+  return (len(ranges)>0)
