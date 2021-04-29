@@ -52,7 +52,7 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 **Checking for EmptyList**
 
 1. Write the next failing test.
-**Fails for String input**
+**Fails for a non-continuous range input**
 
 Implement one failing test and at least one passing test:
 
